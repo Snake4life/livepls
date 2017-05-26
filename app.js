@@ -719,5 +719,3 @@ app.get('/plat_secret', function (req, res) {
 app.get('*', function (req, res, next) {
     res.send('not found')
 })
-
-
